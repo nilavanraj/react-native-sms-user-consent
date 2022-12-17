@@ -33,7 +33,6 @@ export default function startSmsHandling(onSmsReceived) {
 
   function stopSmsHandling() {
     stopNativeSmsListener();
-    jsListener.remove();
   }
 
   return stopSmsHandling;
